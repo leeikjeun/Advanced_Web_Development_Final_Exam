@@ -1,0 +1,32 @@
+{
+  "name": "note-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/gulp_min.js",
+  "scripts": {
+    "start": "gulp default",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/advanced-webapps-class/note-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advanced-webapps-class/note-test/issues"
+  },
+  "homepage": "https://github.com/advanced-webapps-class/note-test#readme",
+  "dependencies": {
+    "screenfull": "^3.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  }
+}

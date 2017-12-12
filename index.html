@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>My Note</title>
+  <link rel="stylesheet" href="dist/css/app.css">
+
+</head>
+<body>
+<div class="header">
+  <h1>My Note</h1>
+  <div class="menu">
+    <button class="btn-newnote">새노트</button>
+    <button class="btn-savenote">노트저장</button>
+    <button class="btn-notedownload">노트다운로드</button>
+    <button class="btn-about">about</button>
+    <button class="btn-fullscreen">전체화면</button>
+  </div>
+</div>
+
+<div class="container">
+  <textarea id="memo" placeholder="내용을 입력하세요"></textarea>
+</div>
+
+<div class="modal">
+  <div class="img-box">
+    <img src="img/close.png" alt="close button">
+  </div>
+  <div class="box">
+    <h1>
+      이름 : 이익전의 메모 어플리케이션;
+    </h1>
+    <h1>
+      개발 언어 : 자바스크립트
+    </h1>
+    <h1>
+      버전 : 1.0
+    </h1>
+
+
+  </div>
+  이정보만 보여주면 되나요? <br />
+  <span id="count">3</span>초 후 자동으로 없어집니다.
+</div>
+
+<!-- <script src="src/js/config.js"></script>
+<script src="src/js/util.js"></script>
+<script src="src/js/view.js"></script>
+<script src="src/js/FileSaver.js"></script>
+<script src="src/js/app.js"></script> -->
+<script type="text/javascript" src="dist/lib/screenfull/dist/screenfull.js"></script>
+<script type="text/javascript" src="dist/js/all.min.js"></script>
+
+</body>
+</html>
